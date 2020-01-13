@@ -7,7 +7,7 @@ namespace Sessions.Controllers
     {
         public ActionResult Index()
         {
-            Session["ope"] = "i am here";
+            Session["ope"] = " My name is Opemipo Olugbenga. I am a back-end developer.";
             return View();
         }
 
