@@ -10,6 +10,7 @@ namespace Sessions.Controllers
     {
         public ActionResult Index()
         {
+            Session["ope"] = "i am here";
             return View();
         }
 
